@@ -1,40 +1,125 @@
 body {
-    margin: 0;
-    text-align: center;
-    font-family: verdana, sans-serif;
+    color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 2em;
 }
 
 h1 {
-    margin-top: 0;
+  color: #66bfbf;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  line-height: 2;
 }
- 
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #11999E;
+}
+
 .top {
-    margin-bottom: 2px;
-    background-color: #E4F9F5;
-    padding-top: 100px;
-    position: relative;
+  margin-bottom: 2px;
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 50%;
+    background-color:  #e4f9f5;
+}
+
+hr {
+    border-top: 10px dotted #EAF6F6;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 4%;
 }
 
 .middle {
-    width: 200px;
-    height: 200px;
-    background-color: red;
 }
 
 .bottom {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    background-color: #66BFBF;
+    height: 300px;
+    padding-top: 50px;
+    margin-top: 100px
+}
+
+.footer-link {
+    margin-left: 70px;
+}
+
+.btn {
+    display: block;
+    width: 250px;
+    height: 25px;
+    background: #66bfbf;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    line-height: 25px;
+    margin: auto;
+}
+
+.footer-by {
+    margin-top: 60px;
+    color: #EAF6F6;
+    font-size: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skill-row {
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.skill-1 {
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-2 {
+    float: right;
+    margin-left: 30px;
 }
 
 .bottom-cloud {
-    position: absolute;
-    bottom: 300px;
-    left: 300px;
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
 }
 
 .top-cloud {
-    position: absolute;
-    top: 50px;
-    right: 300px;
+  position: absolute;
+  top: 50px;
+  right: 300px;
 }
+
+
